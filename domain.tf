@@ -29,13 +29,13 @@ resource "azurerm_key_vault_access_policy" "frontdoor_access" {
   object_id = "ad0e1c7e-6d38-4ba4-9efd-0bc77ba9f037" # Microsoft.Azure.Frontdoor
 
   certificate_permissions = [
-    "get",
-    "list",
+    "Get",
+    "List",
   ]
 
   secret_permissions = [
-    "get",
-    "list",
+    "Get",
+    "List",
   ]
 }
 
